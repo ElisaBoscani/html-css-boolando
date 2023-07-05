@@ -1,5 +1,74 @@
+/* #global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* #endglobal */
+
+/* #utility */
+:root {
+  --zl-hdr: #ff6900;
+  --zl-dark: #1a1a1a;
+}
+
+.debug header {
+  height: 4.75rem;
+  background-color: var(--zl-hdr);
+}
+.debug nav div {
+  height: 10px;
+  border: solid 1px black;
+  width: 50px;
+}
+.debug nav img {
+  height: 10px;
+  border: solid 1px black;
+  width: 50px;
+}
+.debug .card {
+  height: 32.5rem;
+  background-color: var(--zl-dark);
+}
+.debug footer {
+  height: 18.75rem;
+}
+.debug footer .container div {
+  height: 7rem;
+  border: solid 1px white;
+  width: 5rem;
+}
+.d_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3125rem;
+  flex-wrap: wrap;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.justify {
+  justify-content: space-between;
+}
+/* #end utility */
+
+/* main */
+.card {
+  width: 33%;
+  margin-top: 2.25rem;
+  margin-bottom: 1.25rem;
+}
+/* end main */
+/* footer */
+footer {
+  background-color: var(--zl-dark);
+}
+footer .container div {
+  margin-top: 2.25rem;
+}
+/* end footer */
