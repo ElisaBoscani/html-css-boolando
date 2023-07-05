@@ -13,14 +13,17 @@ body {
 :root {
   --zl-hdr: #ff6900;
   --zl-dark: #1a1a1a;
+  --zl-light: #ffffff;
+  --zl--sale: #ff0000;
+  --zl--eco: #008000;
 }
-
+/* debug */
 .debug header {
   height: 4.75rem;
   background-color: var(--zl-hdr);
 }
 .debug nav div {
-  height: 10px;
+  height: 20px;
   border: solid 1px black;
   width: 50px;
 }
@@ -48,6 +51,7 @@ body {
   gap: 0.3125rem;
   flex-wrap: wrap;
 }
+/* debug */
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -55,10 +59,78 @@ body {
 .justify {
   justify-content: space-between;
 }
+
 /* #end utility */
 
+/* header */
+header {
+  background-color: var(--zl-hdr);
+}
+a {
+  text-decoration: none;
+  color: var(--zl-light);
+  font-weight: 700;
+  padding-left: 1rem;
+}
+nav {
+  padding: 1.625rem;
+}
+nav img {
+  height: 2.125rem;
+}
+nav div i {
+  padding-left: 0.4375rem;
+}
+/* end header */
 /* main */
+h2 {
+  font-weight: 700;
+}
+.heart {
+  background-color: var(--zl-light);
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  top: 0.3125rem;
+  padding-top: 0.25rem;
+}
+.price {
+  color: var(--zl--sale);
+  padding-left: 0.0625rem;
+}
+.sales {
+  position: absolute;
+  display: inline-block;
+  background-color: var(--zl--sale);
+  color: var(--zl-light);
+  width: 3.25rem;
+  height: 1.8rem;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 0.25rem;
+  bottom: 12.0625rem;
+}
+.eco {
+  position: absolute;
+  display: inline-block;
+  background-color: var(--zl--eco);
+  color: var(--zl-light);
+  width: 6.8rem;
+  height: 1.8rem;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 0.25rem;
+  left: 4.25rem;
+  bottom: 12.0625rem;
+}
+.old_price {
+  text-decoration: line-through;
+}
 .card {
+  position: relative;
   width: 33%;
   margin-top: 2.25rem;
   margin-bottom: 1.25rem;
