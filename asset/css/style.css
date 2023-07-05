@@ -59,6 +59,9 @@ body {
 .justify {
   justify-content: space-between;
 }
+.aline {
+  align-items: flex-start;
+}
 
 /* #end utility */
 
@@ -70,7 +73,7 @@ a {
   text-decoration: none;
   color: var(--zl-light);
   font-weight: 700;
-  padding-left: 1rem;
+  padding-right: 1rem;
 }
 nav {
   padding: 1.625rem;
@@ -140,12 +143,51 @@ h2 {
 .left {
   left: 0;
 }
+.img1 :hover {
+  content: url(/asset/img/1b.webp);
+}
+.img2 :hover {
+  content: url(/asset/img/2b.webp);
+}
+.img3 :hover {
+  content: url(/asset/img/3b.webp);
+}
+.img4:hover {
+  content: url(/asset/img/4b.webp);
+  width: 28.75rem;
+  height: 41.875rem;
+}
+.img5:hover {
+  content: url(/asset/img/5b.webp);
+  width: 28.75rem;
+  height: 41.875rem;
+}
+.img6:hover {
+  content: url(/asset/img/6b.webp);
+  width: 28.75rem;
+  height: 41.875rem;
+}
 /* end main */
 /* footer */
 footer {
+  margin-top: 3.125rem;
   background-color: var(--zl-dark);
 }
 footer .container div {
   margin-top: 2.25rem;
+  margin-bottom: 0.3125rem;
+}
+h3,
+h4 {
+  color: var(--zl-light);
+  font-weight: 700;
+}
+footer a {
+  font-size: 0.9375rem;
+  font-weight: 100;
+}
+.social i {
+  font-size: 1.6rem;
+  padding: 0.625rem 0.1875rem;
 }
 /* end footer */
