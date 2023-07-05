@@ -48,12 +48,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.3125rem;
+  gap: 2.3125rem;
   flex-wrap: wrap;
 }
 /* debug */
 .container {
-  width: 1170px;
+  width: 1500px;
   margin: 0 auto;
 }
 .justify {
@@ -91,11 +91,10 @@ h2 {
   width: 2rem;
   height: 2rem;
   text-align: center;
-  border: 1px solid black;
   position: absolute;
   right: 0;
   top: 0.3125rem;
-  padding-top: 0.25rem;
+  padding-top: 0.3125rem;
 }
 .price {
   color: var(--zl--sale);
@@ -111,7 +110,7 @@ h2 {
   text-align: center;
   font-weight: 600;
   padding-top: 0.25rem;
-  bottom: 12.0625rem;
+  bottom: 9.0625rem;
 }
 .eco {
   position: absolute;
@@ -124,16 +123,22 @@ h2 {
   font-weight: 600;
   padding-top: 0.25rem;
   left: 4.25rem;
-  bottom: 12.0625rem;
+  bottom: 9.0625rem;
 }
 .old_price {
   text-decoration: line-through;
 }
 .card {
   position: relative;
-  width: 33%;
   margin-top: 2.25rem;
   margin-bottom: 1.25rem;
+}
+.card img {
+  width: 28.75rem;
+  height: 41.875rem;
+}
+.left {
+  left: 0;
 }
 /* end main */
 /* footer */
