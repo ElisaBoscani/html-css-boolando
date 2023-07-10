@@ -68,6 +68,9 @@ body {
 /* header */
 header {
   background-color: var(--zl-hdr);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 a {
   text-decoration: none;
@@ -86,6 +89,9 @@ nav div i {
 }
 /* end header */
 /* main */
+main {
+  padding-top: 9.375rem;
+}
 h2 {
   font-weight: 700;
 }
@@ -144,26 +150,26 @@ h2 {
   left: 0;
 }
 .img1 :hover {
-  content: url(/asset/img/1b.webp);
+  content: url(asset/img/1b.webp);
 }
 .img2 :hover {
-  content: url(/asset/img/2b.webp);
+  content: url(asset/img/2b.webp);
 }
 .img3 :hover {
-  content: url(/asset/img/3b.webp);
+  content: url(asset/img/3b.webp);
 }
 .img4:hover {
-  content: url(/asset/img/4b.webp);
+  content: url(asset/img/4b.webp);
   width: 28.75rem;
   height: 41.875rem;
 }
 .img5:hover {
-  content: url(/asset/img/5b.webp);
+  content: url(asset/img/5b.webp);
   width: 28.75rem;
   height: 41.875rem;
 }
 .img6:hover {
-  content: url(/asset/img/6b.webp);
+  content: url(asset/img/6b.webp);
   width: 28.75rem;
   height: 41.875rem;
 }
